@@ -6,8 +6,8 @@ const Header = () => {
 
   const handleDropdownToggle = (dropdown) => {
     setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
-  };
-
+  }; 
+0
   // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
